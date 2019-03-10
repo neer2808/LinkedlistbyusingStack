@@ -1,6 +1,9 @@
 package nodepackage;
 
-import sun.jvm.hotspot.debugger.posix.elf.ELFSectionHeader;
+// implementation of linked list by using stack
+
+
+
 
 public class Linkedlistwithstack {
   private Node top;
