@@ -11,6 +11,11 @@ public class Linkedlistwithstack {
   }
 
   // Method to check link list is empty or not
+public boolean isEmpty()
+{
+  return top== null;
+}
+
 
 
   public void pop()
