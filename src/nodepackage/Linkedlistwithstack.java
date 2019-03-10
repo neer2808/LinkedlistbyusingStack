@@ -16,6 +16,19 @@ public boolean isEmpty()
   return top== null;
 }
 
+// define method display
+
+  public void display()
+  {
+    Node temp;
+    temp = top;
+    while(temp != null)
+    {
+      System.out.println(temp.getData());
+      temp = temp.getNext();
+
+    }
+  }
 
 
   public void pop()
